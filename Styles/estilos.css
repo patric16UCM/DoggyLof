@@ -1,0 +1,595 @@
+﻿.inicio{
+    width:100%;
+    height:auto;
+    border-color:aqua;
+}
+.imagenlogo {
+   
+    display: block;
+    height: 9em;
+    width: auto;
+
+}
+.bienvenida{
+    font-family: system-ui;
+    font-size: x-large;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+    text-align: end;
+    margin-right: 2em;
+    font-style: italic;   
+}
+.tituloContacto{
+    display:flex;
+}
+.horario{
+    display: flex;
+    flex-direction: row; 
+}
+.imagencarrito {
+  
+    width:3em;
+     margin-top: auto;
+     margin-right: 2em;
+    margin-bottom: auto;
+    
+
+}
+.logo {
+    display: flex;
+    /* grid-auto-columns: 90% 10%; */
+    /* justify-items: stretch; */
+    flex-direction: row;
+}
+
+.prueba{
+    margin:auto;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: system-ui;
+
+}
+.imagenBeneficios{
+    width:50%;
+}
+.imagenofertas {
+    height: auto;
+    width: 5%;
+}
+.tituloBeneficios {
+    font-size: larger;
+    font-weight: bold;
+    font-family: system-ui;
+  
+}
+.titulo {
+font-size:18px;
+}
+.margen {
+    background-color: #EEF7CC;
+    height: 3em;
+    /* opacity: 50%; */
+    
+    height: 4em;
+    /* opacity: 50%; */
+    font-family: system-ui;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    width: 100%;
+    margin-right: auto;
+}
+.menu {
+    width: 100%;
+ 
+     /*background-color: #7ed957;*/
+    display: flex;
+    flex-direction: row;
+
+}
+.menuRRRSS{
+    margin-left:1em;
+    width:40%;
+    display:flex;
+    flex-direction:row;
+}
+.tituloMovimiento {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 2em;
+    font-family: system-ui;
+}
+.rowMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowBoton{
+    font-weight: 600;
+    font-size: 1em;
+    font-family: system-ui;
+    color: #333333;
+    height: 3em;
+    width: 10em;
+    background-color: transparent;
+    border:none;
+}
+.rowBoton:hover{
+    color:#7ed957;
+    
+    border-bottom: #7ed957 solid 2px;
+}
+.beneficios {
+    width: 100%;
+    height: 10em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.boton {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    font-family: system-ui;
+    color: #333333;
+    /*padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    padding-right: 40px;*/
+    background-color: white;
+    border-color: #7ed957;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+    height: 3em;
+    width: 10em;
+}
+boton:hover {
+    background: palevioletred;
+    transition: all 0.2s;
+}
+
+.popup-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.popup {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 10px 13px -7px #000000, 10px 10px 9px 5px rgba(0,0,0,0);}
+
+    .popup a {
+        background: salmon;
+        color: white;
+        text-decoration: none;
+        padding: 6px 10px;
+        margin: 30px auto;
+        display: block;
+        width: 50%;
+    }
+
+        .popup a:hover {
+            background: palevioletred;
+            transition: all 0.2s;
+        }
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.beneficios {
+
+    width: 100%;
+    height: auto;
+    border-color: aqua;
+}
+.footer {
+    height: auto;
+    background-color: #EEF7CC;
+    margin-top: 2em;
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+}
+.informacionContacto {
+    text-align: center;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-left: 10em;
+}
+.textoFooter {
+    margin: auto;
+}
+.rrss {
+    height: 50px;
+    width: auto;
+    margin: auto;
+}
+.textoContacto{
+    text-align:justify;
+}
+.arribaFooter{
+    display:flex;
+    flex-direction:row;
+}
+.abajoFooter {
+    display: flex;
+    flex-direction: row;
+    border-top-color: white;
+    border-top-style: solid;
+    margin-top: 10px;
+}
+.indice {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: auto;
+    margin-top:1em;
+}
+.indiceIndividual {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2em;
+    font-weight: 600;
+}
+.eslogan {
+    font-style: italic;
+    font-family: system-ui;
+    font-size: xx-large;
+}
+.alimentos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4em;
+}
+.texto {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: system-ui;
+}
+.textoFoto {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+.textoAsesoramiento {
+   
+    margin-top: 1em;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:10%;
+    FONT-SIZE: larger;
+    text-align: justify;
+    font-family: system-ui;
+}
+.imagenAsesoramiento {
+    width: 60%;
+    border-radius:3px 3px 3px 3px;
+}
+.tituloAsesoramiento {
+    font-family: system-ui;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 400;
+}
+.botonInfo {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-family: system-ui;
+    color: white;
+    background-color: #7ed957;
+    border-color: #7ed957;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+    height: auto;
+    margin-right: auto;
+    width: 12em;
+    text-align: center;
+    margin-left: auto;
+}
+
+.asesoramiento {
+    margin-top: 5em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.alimentoIndividual {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:2%;
+}
+.tituloProductos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 1em;
+    FONT-SIZE: larger;
+    text-align: center;
+    font-family: system-ui;
+   
+}
+.letrasBeneficios {
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 1.2em;
+    font-family: system-ui;
+}
+.parrafo {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    font-style: oblique
+}
+.tituloContacto {
+    font-weight: 600;
+}
+.parrafofino {
+    font-weight: 100;
+}
+.titulosSeccion {
+    margin-top: 1em;
+    /*margin-bottom: 1em;*/
+    font-family: system-ui;
+    font-size: xxx-large;
+    text-align: center;
+    font-weight: bold;
+}
+.imagenAlimento{
+   width:90%;
+}
+.beneficioIndividual {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+    align-content: center;
+}
+.textoBeneficios {
+    margin-left: 1em;
+    font-family: system-ui;
+}
+.iconosBeneficios{
+    width:12%;
+}
+.centrado {
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -70px;
+    width: 11em;
+}
+.boton2{
+    margin-top:10px;
+    background-color: #7ed957;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: medium;
+}
+/*------------------Flip Card------------------*/
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+/*----------------Fin Flip Card----------------*/
+/*------------contacto-----------------*/
+
+
+
+
+.contact_form {
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #EEF7CC;
+    font-family: system-ui;
+}
+
+
+input {
+    background-color: #fbfbfb;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: #fbfbfb;
+    width: 80%;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+
+label {
+    width: 20%;
+    padding-right: 10px;
+}
+
+.contact_form button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #7ed957;
+    border-color: #7ed957;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+    .contact_form button p {
+        text-align: center;
+        width: 100%;
+        color: #fff;
+        margin-left: auto;
+    }
+
+
+span {
+    color: #7ed957;
+}
+
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #7ed957;
+}
+
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+    text-align: center;
+}
+
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid violet;
+}
+
+
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid violet;
+}
+
+/*------------fin contacto-------------*/
+
+/*CARRUSEL*/
+.carousel{
+    margin-top:40px;
+    background-color: #0e0e0e;
+    width: 80%;
+    height: 376px;
+}

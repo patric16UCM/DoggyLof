@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/estilos.css">
+    <link rel="stylesheet" href="Styles/estilosProductos.css">
+    <link rel="stylesheet" href="Scripts/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="Scripts/Bootstrap/css/bootstrap-grid.min.css">
+    <script src="Scripts/Bootstrap/js/bootstrap.js"></script>
+    <script src="Scripts/Bootstrap/jquery-3.6.0.js"></script>
+    <script src="Scripts/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="Scripts/popup.js"></script>
+
+    <script src="Scripts/scripts.js"></script>
+    <title>DoggyLof</title>
+</head>
+<body>
+
+    <div class="menu">
+
+        <img class="imagenlogo" src="Resources/Images/logo.png" />
+        <div class="rowMenu">
+            <button class="rowBoton">INICIO</button>
+            <button class="rowBoton">BENEFICIOS</button>
+            <button class="rowBoton">¿COMO USAR?</button>
+            <button class="rowBoton">ASESORAMIENTO</button>
+            <button class="rowBoton">OPINIONES</button>
+        </div>
+        <div style="margin-left: auto;display: flex;justify-content: center;align-items:center ;">
+            <img class="imagencarrito" src="Resources/Images/carrito.png" />
+            <img class="imagencarrito" src="Resources/Images/user.png" />
+        </div>
+    </div>
+    <div class="bienvenida">
+        Bienvenida, Patricia
+    </div>
+    <div class="margen">
+        <img class="imagenofertas" src="Resources/Images/ofertas.png" style=" height:80%; width:auto;margin-left: auto;" />
+        <div class="titulo"><b>20%</b> DE DESCUENTO EN EL PRIMER PEDIDO</div>
+
+        <img class="imagenofertas" src="Resources/Images/ofertas.png" style=" height:80%; width:auto;margin-right: auto;" />
+
+    </div>
+<div class="producto">
+    <div class="fotoProducto" >
+        <div class="centrado"> 
+            <img src="Resources/Images/pollo.jpg" class="imagenProducto"  />
+        </div>
+        <div class="centrado"> 
+            <button class="botonInfo boton2"><img src="Resources/Images/carrito.png" style="width:40px" />COMPRAR</button>
+        </div>
+    </div>
+    <div class="textoProducto">
+        <div class="TituloProducto">TROTAMUNDOS </div>
+        <div class="text">
+         <div style="font-size: x-large;text-align: center;color: darkgray;font-family: system-ui;font-style: oblique;margin-bottom: 1em;">Para aquellos que trotan por el mundo.¡Energía ilimitada!</div>  
+      <!--       Este plato esta compuesto por  traseros de pollo, es decir, carne tierna y sabrosa pero a la vez con hueso asi se fortalece la mandibula y se limpian de manera natural los dientes.
+            A eso le acompaña arroz cocido a fuego lento que le encanta a los perros por su combinacion de texturas con los demas ingredientes. Ademas, contiene trocitos de zanahoria
+            fresca cocida que ayuda a la vista de tu perrito. Y por ultimo pero no menos importante, manzana fresca y crujiente que les estimula el comer a los perros.
+            La combinacion perfecta para que tu perro no se resista. -->
+        
+            <div class="beneficioIndividualProducto">
+                <img class="iconosIngredientes" src="Resources/Images/polloIngrediente.png" />
+                <div class="textoBeneficios">
+                <div class="tituloBeneficios">Pollo fresco </div>
+                <div class="parrafofino">Un chute de energía. Se fortalece su mandíbula y se limpian los dientes al mascar los huesos.</div>
+            </div>
+        </div>
+        <div class="beneficioIndividualProducto">
+            <img class="iconosIngredientes" src="Resources/Images/zanahorias.png" />
+            <div class="textoBeneficios">
+                <div class="tituloBeneficios" >Zanahoria </div>
+                <div class="parrafofino"> Excelente fuente de vítaminas.La ingesta de zanahoria beneficia su vista,salud cardiovascular y su sistema nervioso.</div>
+            </div>
+        </div>
+        <div class="beneficioIndividualProducto">
+
+            <img class="iconosIngredientes" src="Resources/Images/cestaManzanas.png" />
+            <div class="textoBeneficios">
+                <div class="tituloBeneficios" >Manzana fresca y sin pepitas. </div>
+                <div class="parrafofino" >Limpia sus dientes,fortalece su mandibula y es un gran entretenimimiento para tu peludo.</div>
+            </div>
+            </div>
+            <div class="beneficioIndividualProducto">
+
+                <img class="iconosIngredientes" src="Resources/Images/arroz.png" />
+                <div class="textoBeneficios">
+                    <div class="tituloBeneficios" >Arroz </div>
+                    <div class="parrafofino" >Apto para todos los perritos y de facil digestión para ellos.</div>
+                </div>
+                </div>
+        </div>
+        <div class="personalizacionProductosTitulo">   ¡RECUERDA QUE PUEDES PERSONALIZARLO!    </div>
+        <div class="text" style="margin-top: 0.5em;text-align: center;">Quita los ingredientes que no le guste a tu perro o que le sienten mal.</div>
+        <div class="centrado"> 
+            <button class="botonInfo boton2" id="boton" style="margin-top:2em;">PERSONALIZAR</button></div>
+    </div>
+        <div class="popup-wrapper">
+            <div class="popup">
+                <div class="popup-close" id="popup-close"><img class="botonCerrar" style="width: auto;height: 26px;" src="Resources/Images/cerrar.png"/></div>
+                <div class="popup-content">
+                    <div class="tituloAlimentos">DESMARCA LOS INGREDIENTES QUE NO DESEE:</div>
+                    <div class="checklistAlimentos">
+                        <ul>
+                            <li> 
+                            <input type="checkbox" checked/> <label>Pollo</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked/> <label>Manzana</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked/> <label>Arroz</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked/> <label>Zanahoria</label>
+                        </li>
+                    </ul>
+                    </div>
+                    <button class="botonInfo boton2"><img src="Resources/Images/carrito.png" style="width:40px" />COMPRAR</button>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+ 
+
+    <div class="footer">
+        <div class="arribaFooter">
+            <div class="indice">
+                <div class="indiceIndividual">INICIO</div>
+                <div class="indiceIndividual">BENEFICIOS</div>
+                <div class="indiceIndividual">¿COMO USAR?</div>
+                <div class="indiceIndividual">ASESORAMIENTO</div>
+                <div class="indiceIndividual">OPINIONES</div>
+            </div>
+            <div class="informacionContacto">
+                <div class=" tituloContacto">
+                    <div class="horario"><img src="Resources/Images/reloj.png" style="height: 20px;width: 20px;"></div>
+                    <div  style="margin-left: 10px;">INFORMACION DE CONTACTO</div>
+                </div>
+                <div class="textoContacto">
+                    <div>Horario de apertura: L-V: 9:00 am- 21:00 pm </div>
+                    <!--<div>Cualquier duda se atenderá a través del formulario</div>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="abajoFooter">
+            <div class="menuRRRSS">
+                <div>Siguenos en nuestras redes sociales </div>
+                <img class="rrss" src="Resources/Images/insta.png" style="height: 38px;" />
+                <img class="rrss" src="Resources/Images/tw.png" />
+            </div>
+            <div class="textoFooter">Aviso legal</div>
+            <div class="textoFooter">Términos y condiciones</div>
+            <div class="textoFooter">Política de cookies</div>
+
+        </div>
+    </div>
+
+</body>
+</html>
