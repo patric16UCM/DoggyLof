@@ -1,0 +1,25 @@
+.mainEstructura{
+    display: grid;
+    /* width: 100%; */
+    border: dotted;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-color: #7ed957;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 2em;
+}
+.entrada1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 1em;
+    /* margin: auto; */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+.entrada{
+    display:flex;
+}

@@ -6,7 +6,7 @@
 .imagenlogo {
    
     display: block;
-    height: 9em;
+    height: 7em;
     width: auto;
 
 }
@@ -116,7 +116,7 @@ font-size:18px;
     font-family: system-ui;
     color: #333333;
     height: 3em;
-    width: 10em;
+    width: 9.5em;
     background-color: transparent;
     border:none;
 }
