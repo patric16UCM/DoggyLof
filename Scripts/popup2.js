@@ -1,14 +1,12 @@
 $( document ).ready(function() {
     var button = document.getElementById('boton2');
+
     
-    
-    document.getElementById('boton2').addEventListener('click', () => {
-        $('.popup-wrapper2').css('display','block')
-        $('.alimentos').css('display','none')
-    });
+   
+
     document.getElementById('numero').addEventListener('change', () => {
-        var num =  $('#numero').value*7;
-        $('#frase').innerHTML ="Tienes comida para "+num+"semanas";
+        var num =  $('#numero').val()*7;
+        document.getElementById('frase').innerHTML ="Tienes comida para "+num+" semanas";
     });
     document.getElementById('boton3').addEventListener('click', () => {
         $('.alimentos').css('display','flex')
@@ -20,9 +18,13 @@ $( document ).ready(function() {
         $('.popup-wrapper2').css('display','none')
         $('.alimentos').css('display','flex')
     });
-    
-    });
-    
-     
+});
+ 
+function abrirPopUP(){
+    var num =  $('#numero').val()*7;
+    document.getElementById('frase').innerHTML ="Tienes comida para "+num+" semanas";
+    $('.popup-wrapper2').css('display','block')
+    $('.alimentos').css('display','none')
+}
     // JavaScript source code
     

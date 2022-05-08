@@ -15,7 +15,7 @@ $( document ).ready(function() {
     })
     $('#aseoramiento').click(
         function(){
-            window.location.hash="#boton"
+            window.location.hash="#asesoramiento"
     })
     $('#usar').click(
         function(){

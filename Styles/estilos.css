@@ -593,3 +593,13 @@ p {
     width: 80%;
     height: 376px;
 }
+.popup-wrapper2,.popup-wrapper3{
+    display: none;
+}
+
+.lotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
