@@ -6,7 +6,7 @@ document.getElementById('boton').addEventListener('click', () => {
     $('.popup-wrapper').css('display','block')
 });
  
-$('#popup-close').click(function(){
+$('#popup-closef').click(function(){
     $('.popup-wrapper').css('display','none')
 });
 });

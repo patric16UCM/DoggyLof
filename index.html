@@ -3,7 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-
+    <link rel="icon" type="image/x-icon" href="/Resources/Images/favicon.ico">
     <link rel="stylesheet" href="Styles/estilos.css">
     <link rel="stylesheet" href="Styles/estilosProductos.css">
     <link rel="stylesheet" href="Scripts/Bootstrap/css/bootstrap.css">
@@ -12,6 +12,7 @@
     <script src="Scripts/Bootstrap/jquery-3.6.0.js"></script>
     <script src="Scripts/Bootstrap/js/bootstrap.min.js"></script>
     <script src="Scripts/popup2.js"></script>
+    <script src="Scripts/popup.js"></script>
     <script src="Scripts/popup3.js"></script>
     <script src="Scripts/scripts.js"></script>
     <title>DoggyLof</title>
@@ -122,13 +123,13 @@
                 <div class="flip-card-inner">
                     <div class="alimentoIndividual">
                         <!--parte de alante-->
-                        <img class="imagenAlimento flip-card-front" src="Resources/Images/menu2.png" />
+                        <img class="imagenAlimento flip-card-front" src="Resources/Images/menu3.png" />
                     </div>
 
                     <div class="flip-card-back">
                         <!--parte de atras-->
                         <div class="centrado">
-                            <img src="Resources/Images/infovariedad.png" style="width: 434px;height: 400px;" />
+                            <img src="Resources/Images/infoatacando.png" style="width: 434px;height: 400px;" />
                             <button class="boton comprar" onclick="location.href='productoTernera.html'">MÁS INFORMACIÓN</button>
                         </div>
                     </div>
@@ -144,13 +145,13 @@
                 <div class="flip-card-inner">
                     <div class="alimentoIndividual">
                         <!--parte de alante-->
-                        <img class="imagenAlimento flip-card-front" src="Resources/Images/menu3.png" />
+                        <img class="imagenAlimento flip-card-front" src="Resources/Images/menu2.png" />
                     </div>
 
                     <div class="flip-card-back">
                         <!--parte de atras-->
                         <div class="centrado">
-                            <img src="Resources/Images/infoatacando.png" style="width: 434px;height: 400px;" />
+                            <img src="Resources/Images/infovariedad.png" style="width: 434px;height: 400px;" />
                             <button class="boton comprar" onclick="location.href='productoSalmon.html'">MÁS INFORMACIÓN</button>
                         </div>
                     </div>
@@ -167,16 +168,16 @@
         </div>
         <div class="popup-wrapper2">
             <div class="popup">
-                <div class="popup-close" id="popup-close"><img class="botonCerrar" style="width: auto;height: 26px;" src="Resources/Images/cerrar.png"/></div>
+                <div class="popup-close" id="popup-close2"><img class="botonCerrar" style="width: auto;height: 26px;" src="Resources/Images/cerrar.png"/></div>
                 <div class="popup-content">
                     <div class="tituloAlimentos">¿Cuantos packs desea?</div>
                     <div class="checklistAlimentos">
                         
                            
-                            <input type="number" id="numero"/>
+                            <input type="number" min="1" value="1" id="numero"/>
                             <div class="tituloAlimentos" id="frase" >Tienes comida para 0 semanas</div>
                     </div>
-                    <button class="botonInfo boton2"id="boton3" ><img src="Resources/Images/carrito.png" style="width:40px" />COMPRAR</button>
+                    <button class="botonInfo boton2"id="boton3" ><img src="Resources/Images/carrito.png" style="width:40px;;margin-right:10px;" />COMPRAR</button>
                     
                 </div>
             </div>
@@ -191,17 +192,22 @@
                 <div class="popup-close" id="popup-close3"><img class="botonCerrar" style="width: auto;height: 26px;" src="Resources/Images/cerrar.png"/></div>
                 <div class="popup-content">
                    <div class="lotes">
-                       <div>
-                           <img src="Resources/Images/menupollo.png" style="width: 40px;"/><span class="numCant">2</span>x Trotamundos
+                       <div style="margin-bottom:15px ;">
+                           <img src="Resources/Images/pollo.jpg" style="width: 40px;margin-right: 5px;"/><span id="numCant1">2</span>x Trotamundos
                         </div>
-                        <div>
-                            <img src="Resources/Images/menuTernera.jpg" style="width: 40px;"/><span class="numCant">2</span>x En la variedad está el éxito
+                        <div  style="margin-bottom:15px ;">
+                            <img src="Resources/Images/menuTernera.jpg" style="width: 40px;margin-right: 5px;"/><span id="numCant2">2</span>x En la variedad está el éxito
                          </div>
-                         <div>
-                            <img src="Resources/Images/menuSalmon.jpg" style="width: 40px;"/><span class="numCant">1</span>x Atacando el calor
+                         <div  style="margin-bottom:15px ;">
+                            <img src="Resources/Images/menuSalmon.jpg" style="width: 40px;margin-right: 5px;"/><span id="numCant3">1</span>x Atacando el calor
                          </div>
                    </div>
-                    <button class="botonInfo boton2"id="boton4" ><img src="Resources/Images/carrito.png" style="width:40px" />COMPRAR</button>
+                   <div class="centrado"style="margin-top:10px">
+                       ¿Cuantos packs quieres comprar?
+                        <input type="number" value="1" min="1" id="numVal"/>
+                         <span>Precio: <span id="precioPack"></span>€</span>
+                   </div>
+                    <button class="botonInfo boton2"id="boton4" ><img src="Resources/Images/carrito.png" style="width:40px;margin-right:10px;" />COMPRAR</button>
                     
                 </div>
             </div>
@@ -322,7 +328,7 @@
                                 <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
                             </p>
                             <div class="centrado" style="flex-direction:row">
-                                <button type="reset" name="enviar_formulario" id="popup-close" style="margin-right:20px"><p>Cancelar</p></button>
+                                <button type="reset" name="enviar_formulario" id="popup-closef" style="margin-right:20px"><p>Cancelar</p></button>
                                 <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
                                 
                             </div>

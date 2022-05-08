@@ -8,13 +8,13 @@ $( document ).ready(function() {
         var num =  $('#numero').val()*7;
         document.getElementById('frase').innerHTML ="Tienes comida para "+num+" semanas";
     });
-    document.getElementById('boton3').addEventListener('click', () => {
+    document.getElementById('boton2').addEventListener('click', () => {
         $('.alimentos').css('display','flex')
         $('.popup-wrapper2').css('display','none')
      
     });
      
-    $('#popup-close').click(function(){
+    $('#popup-close2').click(function(){
         $('.popup-wrapper2').css('display','none')
         $('.alimentos').css('display','flex')
     });

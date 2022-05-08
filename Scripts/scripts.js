@@ -3,22 +3,22 @@ $( document ).ready(function() {
 
     $('#inicio').click(
         function(){
-            window.location.hash="#imagenInicio"
+            window.location.href="index.html#imagenInicio"
     })
     $('#beneficios').click(
         function(){
-            window.location.hash="#imagenBeneficios"
+            window.location.href="index.html#imagenBeneficios"
     })
     $('#opiniones').click(
         function(){
-            window.location.hash="#opinionesDIV"
+            window.location.href="index.html#opinionesDIV"
     })
     $('#aseoramiento').click(
         function(){
-            window.location.hash="#asesoramiento"
+            window.location.href="index.html#asesoramiento"
     })
     $('#usar').click(
         function(){
-            window.location.hash="#productosDIV"
+            window.location.href="index.html#productosDIV"
     })
 });
