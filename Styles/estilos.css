@@ -3,6 +3,24 @@
     height:auto;
     border-color:aqua;
 }
+.rectangulo{
+    background-color: white;
+    border-radius: 3em;
+    height: 17em;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.texto2{
+    /* text-align: center; */
+    /* margin-bottom: 1em; */
+    /* font-family: system-ui; */
+    display: flex;
+    align-items: normal;
+    flex-direction:row;
+}
 .imagenlogo {
    
     display: block;
