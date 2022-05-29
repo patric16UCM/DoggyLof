@@ -490,9 +490,9 @@ boton:hover {
 
 
 .contact_form {
-    width: 80%;
+    width: 60%;
     padding-left: 30px;
-    padding-right: 30px;
+    
     height: auto;
     border-radius: 10px;
     padding-top: 30px;
@@ -548,14 +548,14 @@ label {
     border-color: #7ed957;
     border-style: solid;
     border-radius: 10px;
-    width: 420px;
+    width: 320px;
     cursor: pointer;
     text-align: center;
 }
 
 
     .contact_form button p {
-        text-align: center;
+        
         width: 100%;
         color: #fff;
         margin-left: auto;
@@ -591,7 +591,7 @@ h3 {
 p {
     font-size: 14px;
     color: #0e0e0e;
-    text-align: center;
+    
 }
 
 

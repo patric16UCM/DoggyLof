@@ -98,7 +98,7 @@
                 <img class="iconosBeneficios" src="Resources/Images/iconocereales.png" />
                 <div class="textoBeneficios">
                     <div class="tituloBeneficios">Sin cereales, colorantes o conservantes. </div><br />
-                    <div class="parrafofino"> Poner los porcentajes</div>
+                    <div class="parrafofino"> Únicamente compuesto por productos cárnicos, frutas y verduras. </div>
                 </div>
             </div>
             <div class="beneficioIndividual">
@@ -106,7 +106,7 @@
                 <img class="iconosBeneficios" src="Resources/Images/perro.png" />
                 <div class="textoBeneficios">
                     <div class="tituloBeneficios">Todo bueno para tu perro </div><br />
-                    <div class="parrafofino" >Dientes mas limpios,mandibulas mas fuerte y digestiones mas ligeras.</div>
+                    <div class="parrafofino" >Dientes más limpios,mandibulas más fuerte y digestiones más ligeras.</div>
                 </div>
             </div>
 
@@ -115,9 +115,9 @@
  
     <div class="titulosSeccion"id="productosDIV">PRODUCTOS</div>
     <div class="parrafofino" style="font-size:x-large;text-align: center;margin-bottom:1em;margin-top:1em;">
-        Elige el menú que mas te guste y si lo deseas personalizalo para que se adapte mas a los gustos de tu peludo.</div>
+        Elige el menú que más te guste y si lo deseas personalízalo para que se adapte más a los gustos de tu peludo.</div>
         <div class="parrafofino" style="font-size:x-large;text-align: center;margin-bottom:1em;margin-top:1em;">
-       Cada pack se compone de 7 packs con 300 gramos, una ración por día para que la repartas como quieras.
+       Cada pack se compone de <b>7 raciones con 300 gramos</b>, una ración por día para que la repartas como quieras.
         </div>
         <div class="alimentos">
             <!------1------->
@@ -138,7 +138,7 @@
                 </div>
                 <div class="tituloProductos">
                     TROTAMUNDOS
-                    <span>5€/pack</span>
+                    <span>9€/pack</span>
                     <button class="botonInfo boton2" onclick="abrirPopUP()"><img src="Resources/Images/carrito.png" style="width:40px;margin-right:10px;" />COMPRAR</button>
                    
                 </div>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="tituloProductos">
                     EN LA VARIEDAD ESTÁ EL ÉXITO
-                    <span>5€/pack</span>
+                    <span>8€/pack</span>
                     <button class="botonInfo boton2" onclick="abrirPopUP()"><img src="Resources/Images/carrito.png" style="width:40px;margin-right:10px;" />COMPRAR</button>
                  
                 </div>
@@ -182,7 +182,7 @@
                 </div>
                 <div class="tituloProductos">
                     ATACANDO EL CALOR
-                    <span>5€/pack</span>
+                    <span>16€/pack</span>
                     <button class="botonInfo boton2" id="boton2" onclick="abrirPopUP()"><img src="Resources/Images/carrito.png" style="width:40px;margin-right:10px;" />COMPRAR</button>
                     
                 </div>
@@ -194,7 +194,7 @@
             <div class="popup">
                 <div class="popup-close" id="popup-close2"><img class="botonCerrar" style="width: auto;height: 26px;" src="Resources/Images/cerrar.png"/></div>
                 <div class="popup-content">
-                    <div class="tituloAlimentos">¿Cuantos packs desea?</div>
+                    <div class="tituloAlimentos">¿Cuántos packs desea?</div>
                     <div class="checklistAlimentos">
                         
                            
@@ -206,11 +206,11 @@
                 </div>
             </div>
         </div>
-
-        <div class="centrado" style="font-size: 2em;margin-top: 2.5em;">
-            <a onclick="abrirPopUP3()" style="color:black;">No se que elegir, ¡Ayuda!</a>
+        <div class="centrado">
+            <div id="ayudaBtn"  style="font-size: 2em;margin-top: 4em;display:flex;">
+                No se que elegir<a  class="botonInfo boton2" onclick="abrirPopUP3()" style="color:white;width: 200px;margin-left: 10px;" > Déjanos ayudarte.</a>
+            </div>
         </div>
-
         <div class="popup-wrapper3">
             <div class="popup">
                 <div class="popup-close" id="popup-close3"><img class="botonCerrar" style="width: auto;height: 26px;" src="Resources/Images/cerrar.png"/></div>
@@ -227,7 +227,8 @@
                          </div>
                    </div>
                    <div class="centrado"style="margin-top:10px">
-                       ¿Cuantos packs quieres comprar?
+                       ¿Cuántos packs quieres comprar?
+                       <div style="font-size:12px;color:gray;margin-bottom:5px"> Recuerda que un pack son 7 raciones.</div>
                         <input type="number" value="1" min="1" id="numVal"/>
                          <span>Precio: <span id="precioPack"></span>€</span>
                    </div>
